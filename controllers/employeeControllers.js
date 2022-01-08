@@ -40,7 +40,7 @@ router.post('/', (req, res) => {
 		salary: req.body.salary
 	})
 	//.save object into db
-	emp.save( (err, doc)={
+	emp.save( (err, doc)=>{
 		if(!err) {
 			req.save(doc)
 		}
